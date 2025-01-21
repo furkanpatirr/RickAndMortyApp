@@ -5,7 +5,7 @@ import com.furkanpatir.network.dto.CharacterDto
 import com.furkanpatir.network.dto.GetAllCharacterResponse
 import javax.inject.Inject
 
-class RemoteDataSourceImpl @Inject constructor(
+internal class RemoteDataSourceImpl @Inject constructor(
     private val api: RickAndMortyApi
 ) : RemoteDataSource {
 
