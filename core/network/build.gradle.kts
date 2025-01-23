@@ -45,6 +45,8 @@ dependencies {
 
     // Hilt
     implementation ("com.google.dagger:hilt-android:2.52")
+    implementation(project(":core:common"))
+    implementation(project(":core:common"))
     kapt ("com.google.dagger:hilt-compiler:2.52")
 
     testImplementation(libs.junit)
